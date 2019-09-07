@@ -69,8 +69,10 @@
 (defn circle [x y]
   [:circle {:cx (+ x 0.5)
             :cy (+ y 0.5)
-            :r 0.45
-            :fill "green"}])
+            :r 0.4
+            :stroke "green"
+            :stroke-width 0.08
+            :fill "none"}])
 
 (defn cross [x y]
   [:g {:stroke "darkred"
